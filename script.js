@@ -28,7 +28,7 @@ function updateBigCup() {
         }
     })
     percentage.innerText = `${fullCups*100 /8}%`;
-    liters.innerText = `${2 - fullCups/4}`
+    liters.innerText = `${2 - fullCups/4}L`
     if(fullCups === 0) {
         remained.style.visibility = 'visible';
         percentage.style.visibility = 'hidden';

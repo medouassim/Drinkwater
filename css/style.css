@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #5b81fd;
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+}
+
+.container {
+  color: #fff;
+  text-align: center;
+  width: 21rem;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.container p {
+  padding: 0;
+  margin: 0;
+}
+
+.container .big.cup {
+  cursor: auto;
+  width: 11rem;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+}
+
+.container .big.cup .remained {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.4s ease;
+}
+
+.container .big.cup .remained span {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.container .big.cup #percentage {
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 0 0 18px 18px;
+  background-color: #6ab3f8;
+  width: 10.7rem;
+  height: 100%;
+  transition: .4s linear;
+}
+
+.container .smallcups {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 15rem;
+  margin: auto;
+}
+
+.container .smallcups .full {
+  background-color: #6ab3f8;
+  color: #fff;
+}
+
+.container .cup {
+  background-color: #fff;
+  color: #144fc6;
+  padding: 1rem .5rem;
+  margin: .3rem;
+  border-radius: 0 0 20px 20px;
+  border: 3px solid #144fc6;
+  cursor: pointer;
+}
